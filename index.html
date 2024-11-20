@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Shop Website</title>
+    <!-- External CSS link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- this meta link helps to stops the webpage to zoom-in and out to app -->
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <!-- Icons link -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- swiper link  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <!-- Header section -->
+
+    <header class="header">
+        <div class="logoContent">
+            <h1>B</h1>
+            <h2><i>C</i></h2>
+            <h1 class="h1-tag">akes WOW</h1>
+            <h1><i class="ri-bluesky-line"></i></h1>
+        </div>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#product">Product</a>
+            <a href="#blogs">Blogs</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="icon">
+            <i class="ri-search-line" id="search"></i>
+            <i class="ri-menu-line" id="menu-bar"></i>
+        </div>
+        <div class="search">
+            <input type="search" placeholder="Search...">
+        </div>
+    </header>
+
+    <!-- Home section -->
+
+    <section class="home" id="home">
+
+        <div class="homeContent">
+            <div class="homeLeft">
+                <h1>Tummy calls for yummy cake</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem recusandae doloribus nemo at magni,
+                    quasi magnam vero.</p>
+                <div class="home-btn">
+                    <a href="#"><button>See more</button></a>
+                </div>
+            </div>
+            <div class="homeRight">
+                
+                <img src="images/blackForest_cake.png" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Product section -->
+    <section class="product" id="product">
+        <div class="heading">
+            <h2>Our Exclusive Products</h2>
+        </div>
+
+        <div class=" product-row">
+            
+            <div class="container">
+
+                <span class="prev" onclick="plusSlides(1,-1)"><i class="ri-arrow-left-s-line"></i></span>
+
+                <div class="container1">
+                    <div class="box">
+                        <div class="img">
+                            <img src="images/cake1.png" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Chocolate</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                            <div class="orderNow">
+                                <button>Order Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="img">
+                            <img src="images/cake2.jpeg" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Chocolate</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <div class="orderNow">
+                                <button>Order Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="img">
+                            <img src="images/cake3.jpeg" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Chocolate</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <div class="orderNow">
+                                <button>Order Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" box">
+                        <div class="img">
+                            <img src="images/cake4.jpeg" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Chocolate</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <div class="orderNow">
+                                <button>Order Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="img">
+                            <img src="images/cake5.jpeg" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Chocolate</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                            <div class="orderNow">
+                                <button>Order Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="img">
+                            <img src="images/cake6.jpeg" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Chocolate</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <div class="orderNow">
+                                <button>Order Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="img">
+                            <img src="images/cake7.jpeg" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Chocolate</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <div class="orderNow">
+                                <button>Order Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="img">
+                            <img src="images/cake8.jpeg" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Chocolate</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <div class="orderNow">
+                                <button>Order Now </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span class="next" onclick="plusSlides(1,1)"><i class="ri-arrow-right-s-line"></i></span>
+            </div>
+
+            <div class="container">
+
+                <span class="prev1" onclick="plusSlides(2,-1)"><i class="ri-arrow-left-s-line"></i></span>
+
+                <div class="container2">
+                    <div class="box1">
+                        <div class="img">
+                            <img src="images/cake9.jpeg" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Chocolate</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                            <div class="orderNow">
+                                <button>Order Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class="img1">
+                            <img src="images/cake10.jpeg" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Chocolate</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <div class="orderNow">
+                                <button>Order Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class="img1">
+                            <img src="images/cake11.jpeg" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Chocolate</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <div class="orderNow">
+                                <button>Order Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" box1">
+                        <div class="img1">
+                            <img src="images/cake12.jpeg" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Chocolate</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <div class="orderNow">
+                                <button>Order Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class="img1">
+                            <img src="images/cake13.jpeg" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Chocolate</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                            <div class="orderNow">
+                                <button>Order Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class="img1">
+                            <img src="images/cake14.jpeg" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Chocolate</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <div class="orderNow">
+                                <button>Order Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class="img1">
+                            <img src="images/cake15.jpeg" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Chocolate</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <div class="orderNow">
+                                <button>Order Now </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class="img">
+                            <img src="images/cake16.jpeg" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Chocolate</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <div class="orderNow">
+                                <button>Order Now </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span class="next1" onclick="plusSlides(2,1)"><i class="ri-arrow-right-s-line"></i></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog section -->
+    <section class="blogs" id="blogs">
+
+        <div class=" swiper blogs-row">
+            <div class="swiper-wrapper">
+                <div class=" swiper-slide box">
+                    <div class="img">
+                        <img src="images/blogimg1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Chocolate cake </h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolorum voluptatum
+                            corporis accusamus aperiam fugiat tempora blanditiis labore dolor aliquid maxime nobis
+                            laborum sed soluta voluptatibus aspernatur natus, dicta quisquam.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam ab ullam reiciendis sint
+                            eaque at.</p>
+                        <a href="#blogs" class="btn">learn more</a>
+                    </div>
+                </div>
+                <div class=" swiper-slide box">
+                    <div class="img">
+                        <img src="images/blogimg2.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Matcha Cupcakes </h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolorum voluptatum
+                            corporis accusamus aperiam fugiat tempora blanditiis labore dolor aliquid maxime nobis
+                            laborum sed soluta voluptatibus aspernatur natus, dicta quisquam.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam ab ullam reiciendis sint
+                            eaque at.</p>
+                        <a href="#blogs" class="btn">learn more</a>
+                    </div>
+                </div>
+                <div class=" swiper-slide box">
+                    <div class="img">
+                        <img src="images/blogimg3.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Chocolate Sponge Cake</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolorum voluptatum
+                            corporis accusamus aperiam fugiat tempora blanditiis labore dolor aliquid maxime nobis
+                            laborum sed soluta voluptatibus aspernatur natus, dicta quisquam.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam ab ullam reiciendis sint
+                            eaque at.</p>
+                        <a href="#blogs" class="btn">learn more</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Add navigation controls -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <!-- Add pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- Review section  -->
+    <section class="review" id="review">
+        <div class="heading">
+            <h1>Client reviews</h1>
+        </div>
+
+        <div class="swiper review-row">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="client-review">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, perferendis architecto
+                            quasi eveniet aliquam sed?</p>
+                    </div>
+                    <div class="client-info">
+                        <div class="img">
+                            <img src="images/client1.jpeg" alt="">
+                        </div>
+                        <div class="clientDetailed">
+                            <h3>Ethan</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="client-review">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, perferendis architecto
+                            quasi eveniet aliquam sed?</p>
+                    </div>
+                    <div class="client-info">
+                        <div class="img">
+                            <img src="images/client2.jpeg" alt="">
+                        </div>
+                        <div class="clientDetailed">
+                            <h3>Sophia</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="client-review">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, perferendis architecto
+                            quasi eveniet aliquam sed?</p>
+                    </div>
+                    <div class="client-info">
+                        <div class="img">
+                            <img src="images/client3.jpeg" alt="">
+                        </div>
+                        <div class="clientDetailed">
+                            <h3>Daniel</h3>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+    
+    <!-- footer section  here  -->
+
+    <footer class="footer" id="contact">
+        <div class="box-container">
+            
+            <div class="box">
+                <h3>Quick link</h3>
+                <a href="#"> <i class="ri-arrow-right-fill"></i>Home</a>
+                <a href="#"> <i class="ri-arrow-right-fill"></i>product</a>
+                <a href="#"> <i class="ri-arrow-right-fill"></i>blogs</a>
+                <a href="#"> <i class="ri-arrow-right-fill"></i>review</a>
+                <a href="#"> <i class="ri-arrow-right-fill"></i>contact</a>
+
+            </div>
+            <div class="box">
+                <h3>Extra link</h3>
+                <a href="#"> <i class="ri-arrow-right-fill"></i>Account info</a>
+                <a href="#"> <i class="ri-arrow-right-fill"></i>order item</a>
+                <a href="#"> <i class="ri-arrow-right-fill"></i>privacy policy</a>
+                <a href="#"> <i class="ri-arrow-right-fill"></i>payment method</a>
+                <a href="#"> <i class="ri-arrow-right-fill"></i>our  services</a>
+            </div>
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#"> <i class="ri-phone-line"></i>+91 12222 34444</a>
+                <a href="#"> <i class="ri-mail-fill"></i></i>name@gmail.com</a>
+
+            </div>
+
+        </div>
+        <div class="share">
+            <a href="#" class="ri-facebook-box-fill"></a>
+            <a href="#" class="ri-twitter-fill"></a>
+            <a href="#" class="ri-instagram-fill"></a>
+            <a href="#" class="ri-linkedin-box-fill"></a>
+            <a href="#" class="ri-pinterest-fill"></a>
+        </div>
+    </footer>
+
+
+    <!-- custom js file -->
+    <script src="script.js"></script>
+
+    <!-- Swiper JS -->
+    <!-- swiper js link  -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+</body>
+
+</html>
